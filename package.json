@@ -1,0 +1,41 @@
+{
+  "name": "marathon-event-bus-mock",
+  "version": "0.1.0",
+  "description": "Create a mock Marathon's Event Bus, and send events to SSE clients",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "publish-please": "publish-please",
+    "prepublish": "publish-please guard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobilg/marathon-event-bus-mock.git"
+  },
+  "keywords": [
+    "Mesos",
+    "DC/OS",
+    "Marathon",
+    "event",
+    "bus",
+    "mock"
+  ],
+  "author": {
+    "name": "TobiLG",
+    "email": "tobilg@gmail.com",
+    "url": "https://github.com/tobilg"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tobilg/marathon-event-bus-mock/issues"
+  },
+  "homepage": "https://github.com/tobilg/marathon-event-bus-mock#readme",
+  "dependencies": {
+    "eventsource": "^1.0.2"
+  },
+  "devDependencies": {
+    "express": "^4.15.3",
+    "publish-please": "^2.3.1",
+    "sse": "0.0.6"
+  }
+}
