@@ -1,6 +1,6 @@
 {
   "name": "marathon-event-bus-mock",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Create a mock Marathon's Event Bus, and send events to SSE clients",
   "main": "index.js",
   "scripts": {
