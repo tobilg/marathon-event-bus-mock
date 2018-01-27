@@ -28,3 +28,11 @@ const server = new MarathonEventBusMockServer(8080);
 // Send random events every 2000ms
 server.sendEvents(2000);
 ```
+
+By default, it will publish Marathon >=v1.4 events. As those differ from former versions, you can use
+
+```javascript
+const server = new MarathonEventBusMockServer(8080, true);
+```
+
+to enable the legacy events.
